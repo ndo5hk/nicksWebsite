@@ -1,0 +1,123 @@
+body, html {
+    height: 100%;
+}
+
+@font-face {
+    font-family: vintage;
+    src: url(vintage_warehouse.ttf);
+}
+
+.bg {
+    /* The image used */
+    background-image: url("./keyboard_background.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron {
+	border-radius: 15px;
+	float: top;
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  opacity: 0;
+  text-align: center;
+}
+
+.jumbotron h1 {
+	opacity: 1;
+	height: 250px;
+}
+
+.navbar {
+	opacity: 0.85;
+}
+
+#brand {
+    font-family: vintage;
+    font-size: 200%;
+    opacity: 1;
+}
+
+.nick-image {
+  position: relative;
+  float: top;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -145%);
+  opacity: 0;
+}
+
+.link {
+
+}
+
+#downArrow {
+  float: top;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 300%);
+  text-align: center;
+  font-size: 125px;
+}
+
+#nick-img {
+  height: 100%;
+  border-radius: 10px;
+}
+
+.web_demo {
+  margin: auto;
+}
+
+#web_demo {
+  width: 70%;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+#my-work-header-column {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+#my-work-header {
+  font-family: vintage; 
+  font-size: 50pt; 
+  color: #6BAD72;
+}
+
+.secondWindow {
+  padding-top: 3%;
+}
+
+#video-container {
+/*  opacity: 0;*/
+  background-color: gray;
+  border-color: gray;
+  width: 60%;
+  height: 100%;
+  text-align: center;
+}
+
+#socials {
+  font-size: 50pt;
+}
+
+/*.carousel-inner .item video{
+    margin: 0 auto;
+}
+
+#my-work-carousel {
+  margin: 0 0 0 0 ;
+}*/
